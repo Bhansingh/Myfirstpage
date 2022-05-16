@@ -52,14 +52,21 @@ font-family: 'Roboto Condensed', sans-serif;
 	justify-content: space-between;
 	font-size: 20px;
 	text-transform: uppercase;
+	/*text-decoration: none;*/
 	
 	
-}
+
 
 }
+.aboutpage ul li a{
+	text-decoration: none;
+	list-style: none;
+}
+
 
 a: link{
 	color: red;
+	list-style: none;
  }
 .box{
     border: 2px solid red;
@@ -85,7 +92,7 @@ a: link{
 
 .background {
 	width: 100%;
-	background-image: url(image/bg2.jpg);
+	background-image: url(image/bulb.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -107,9 +114,8 @@ a: link{
 	margin-top:100px;
 	padding: 5px;
 	text-align: center;
-	color: black;
 	font-size: 40px;
-	color: rgb(60, 50, 10);
+	color: rgb(260, 150, 110);
 	
 	margin-top: 10px;
 
@@ -272,43 +278,24 @@ a: link{
 
 .background1{
 	     width: 100%;
-	background-image: url(image/bg2.jpg);
+	background-image: url(image/bulb.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 1120px;
 	background-attachment: fixed;
 }
-.details{
-	width: 500px;
-	height: 200px;
-	font-size: 20px;
-	color: brown;
-	border: 2px solid yellow;
-	overflow: hidden;
-	overflow: scroll;
-	justify-content: center;
-	margin-left: 80px;
-	margin-right: 380px;
-	text-align: center;
-	background-color: rgb(120, 160, 130);
-	border-radius: 5px;
-	cursor: pointer;
-}
-.textDesign h3{
-	color: white;
-	font-size: 20px;
-	font-weight: lighter;
-}
+
 
 .sumthing{
 	width: 300px;
-	height: 900px;
+	height: 890px;
 	border: 3px solid orange;
-	margin-left: 900px;
-	margin-right: 900px;
+	margin-left: 500px;
+	margin-right: 500px;
 	background-color: rgb(227, 228, 227);
 	padding-top: 10px;
+
 	
 }
 .sumthing h1{
@@ -362,4 +349,130 @@ a: link{
 	padding-top: 10px;
 	padding: 10px 22px;
 	text-align: center;
+}
+.sumthing h5{
+	    text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.tabledata th{
+	list-style: none;
+	display: inline;
+	width: 100%;
+	padding: 10px;
+	margin-right: 50px;
+	flex-direction: row;
+	/*background-color: green;*/
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px;
+
+}
+
+.tabledata th a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 20px;
+	/*margin-right: 750px;
+	padding-right: 750px;*/
+	font-weight: lighter;
+}
+
+.background3{
+	     width: 100%;
+	background-image: url(image/sea.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 1120px;
+	background-attachment: fixed;
+}
+
+.socialmedia{
+	   border: 2px solid orange;
+	   border-radius: 20px;
+	   width: 400px;
+	   height: 50px;
+	   margin-top: 30px;
+	   margin-left: 450px;
+	   margin-right: 450px;
+	   background-color:rgb(84,250,151);
+
+	   
+}
+
+.socialmedia img{
+	width: 40px;
+	height: 35px;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 35px;
+	margin-left: 35px;
+	padding: 8px 8px;
+	cursor: pointer;
+
+}
+
+.newsheader{
+	width: 100%;
+	line-height: 60px;
+	background-color: rgb(84,250,151);
+}
+
+.newsheader h1{
+	font-size: 30px;
+	margin-right: 600px;
+	padding: 5px 5px;
+	color: blue;
+
+}
+
+.newsmenu{
+	font-size: 20px;
+	display: inline;
+	margin-left: 10px;
+
+
+}
+
+.newsmenu ul li{
+	list-style: none;
+	display: inline;
+	width: 100%;
+	margin-right: 50px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding-left: 50px;
+
+}
+.prnews{
+	width: 1100px;
+	height: 300px;
+	background-color: rgb(84,250,175);
+	border-radius: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	/*text-align: center;*/
+	padding: 5px 15px;
+	margin-top: 20px;
+}
+.prnews h1{
+	padding: 15px 15px;
+}
+
+#style h2 {
+	background-color: white;
+	padding: 15px 15px;
+
+}
+#style p{
+	background-color: white;
+	padding: 15px;
 }
